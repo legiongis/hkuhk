@@ -2,7 +2,6 @@
 package_settings.py
 settings_local.py
 hkuhk/media/packages
-hkuhk/node_modules
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
