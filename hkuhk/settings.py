@@ -14,6 +14,8 @@ except ImportError:
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
+PACKAGE_DIR = os.path.join(os.path.dirname(APP_ROOT),'pkg')
+
 DATATYPE_LOCATIONS.append('hkuhk.datatypes')
 FUNCTION_LOCATIONS.append('hkuhk.functions')
 TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'functions', 'templates'))
