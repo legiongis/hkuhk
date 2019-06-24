@@ -8864,7 +8864,7 @@
                     }, 
                     "function_id": "60000000-0000-0000-0000-000000000001", 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "id": "f2f6b9c0-fe4e-11e8-ada6-94659cf754d0"
+                    "id": "4327d6c0-fe60-11e8-8816-94659cf754d0"
                 }
             ], 
             "graphid": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
@@ -8998,11 +8998,11 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Administration Subdivision", 
-                    "nodegroup_id": "4b17b8e8-943a-11e8-a2fe-94659cf754d0", 
-                    "nodeid": "4b17b8e8-943a-11e8-a2fe-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within", 
+                    "name": "Place Description Assignment", 
+                    "nodegroup_id": "4b17b8e2-943a-11e8-8622-94659cf754d0", 
+                    "nodeid": "4b17b8e2-943a-11e8-8622-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by", 
                     "sortorder": 0
                 }, 
                 {
@@ -9174,27 +9174,11 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Place Description Assignment", 
-                    "nodegroup_id": "4b17b8e2-943a-11e8-8622-94659cf754d0", 
-                    "nodeid": "4b17b8e2-943a-11e8-8622-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by", 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "End of Existence Time Span", 
-                    "nodegroup_id": "31eb0522-943a-11e8-ae41-94659cf754d0", 
-                    "nodeid": "31eb0528-943a-11e8-bbe4-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "name": "Administration Subdivision", 
+                    "nodegroup_id": "4b17b8e8-943a-11e8-a2fe-94659cf754d0", 
+                    "nodeid": "4b17b8e8-943a-11e8-a2fe-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within", 
                     "sortorder": 0
                 }, 
                 {
@@ -9234,17 +9218,17 @@
                 {
                     "config": null, 
                     "datatype": "semantic", 
-                    "description": "Represents a single node in a graph", 
+                    "description": "", 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Beginning of Existence Time Span", 
+                    "name": "Beginning of Existence", 
                     "nodegroup_id": "31eb0522-943a-11e8-ae41-94659cf754d0", 
-                    "nodeid": "31eb052b-943a-11e8-8cae-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "nodeid": "31eb052a-943a-11e8-a702-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P116i_is_started_by", 
                     "sortorder": 0
                 }, 
                 {
@@ -9330,37 +9314,35 @@
                     "sortorder": 0
                 }, 
                 {
-                    "config": {
-                        "rdmCollection": "de75168b-467c-4c2e-8f12-2ea7066b1bca"
-                    }, 
-                    "datatype": "concept", 
-                    "description": "", 
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Start Date Type", 
+                    "name": "End of Existence Time Span", 
                     "nodegroup_id": "31eb0522-943a-11e8-ae41-94659cf754d0", 
-                    "nodeid": "31eb0529-943a-11e8-949f-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "nodeid": "31eb0528-943a-11e8-bbe4-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
                     "sortorder": 0
                 }, 
                 {
                     "config": null, 
                     "datatype": "semantic", 
-                    "description": "", 
+                    "description": "Represents a single node in a graph", 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Beginning of Existence", 
+                    "name": "Beginning of Existence Time Span", 
                     "nodegroup_id": "31eb0522-943a-11e8-ae41-94659cf754d0", 
-                    "nodeid": "31eb052a-943a-11e8-a702-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P116i_is_started_by", 
+                    "nodeid": "31eb052b-943a-11e8-8cae-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
                     "sortorder": 0
                 }, 
                 {
@@ -9377,6 +9359,24 @@
                     "nodeid": "31eb052c-943a-11e8-93ef-94659cf754d0", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "de75168b-467c-4c2e-8f12-2ea7066b1bca"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Start Date Type", 
+                    "nodegroup_id": "31eb0522-943a-11e8-ae41-94659cf754d0", 
+                    "nodeid": "31eb0529-943a-11e8-949f-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "sortorder": 0
                 }, 
                 {
@@ -9579,7 +9579,15 @@
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
-            "relatable_resource_model_ids": [], 
+            "relatable_resource_model_ids": [
+                "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                "ccbd1537-ac5e-11e6-84a5-026d961c88e6", 
+                "fad0563b-b8f8-11e6-84a5-026d961c88e6", 
+                "f5624ce7-b66c-11e6-84a5-026d961c88e6", 
+                "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
+                "99417385-b8fa-11e6-84a5-026d961c88e6", 
+                "243f8689-b8f6-11e6-84a5-026d961c88e6"
+            ], 
             "resource_2_resource_constraints": [], 
             "root": {
                 "config": null, 
