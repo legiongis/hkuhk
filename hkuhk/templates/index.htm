@@ -27,7 +27,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 <!--<![endif]-->
 
 <head>
-    <title>Hong Kong DB</title>
+    <title>HKU Heritage</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -75,14 +75,14 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                 <div class="menu-container">
                     <ul class="nav navbar-nav">
                         <li class="page-scroll">
-                            <a href="#about">{% trans "About Arches" %}</a>
+                            <a href="#about">{% trans "About" %}</a>
                         </li>
                         <li class="page-scroll">
                             <a href="#services">{% trans "Capabilities" %}</a>
                         </li>
-                        <li class="page-scroll">
-                            <a href="#news">{% trans "News" %}</a>
-                        </li>
+                        <!-- <li class="page-scroll"> -->
+                            <!-- <a href="#news">{% trans "News" %}</a> -->
+                        <!-- </li> -->
                         <li class="page-scroll">
                             <a href="{% url 'search_home' %}">{% trans "Search" %}</a>
                         </li>
@@ -135,13 +135,13 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <img src="{% static 'img/landing/declared-main-building.jpg' %}" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
-                        <div class="tp-caption rs-caption-1 sft start text-bold" delay="4500" data-x="center" data-hoffset="0" data-y="100" data-speed="800" data-start="1000" data-easing="Back.easeInOut" data-endspeed="300">
-                            Arches
+                        <div class="tp-caption rs-caption-1 sft start text-bold" delay="4500" data-x="center" data-hoffset="0" data-y="100" data-speed="800" data-start="1000" data-easing="Back.easeInOut" data-endspeed="300" style="color: dark-grey">
+                            HKU Heritage
                         </div>
 
                         <!-- LAYER -->
-                        <div class="tp-caption rs-caption-2 sft" data-x="center" data-hoffset="0" data-y="200" data-speed="1000" data-start="3000" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            {% trans "A Data Management and Integration Platform<br> To Preserve and Protect Cultural Heritage." %}
+                        <div class="tp-caption rs-caption-2 sft" data-x="center" data-hoffset="0" data-y="200" data-speed="1000" data-start="3000" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6" style="color: black">
+                            {% trans "Developed to document Hong Kong's tangible and intangible forms of heritage" %}
                         </div>
 
                         <!-- LAYER -->
@@ -227,11 +227,10 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
         <div id="about" class="about-image bg-grey">
             <div class="container">
                 <div class="title-v1">
-                    <h1>{% trans "What is Arches" %}</h1>
-                    <p>{% trans "Arches is <strong>awesome</strong> technology designed to ease Cultural Heritage data management.<br> Use Arches to build an inventory of cultural heritage assets such as objects, research activities, areas, datasets, and people or  organizations." %}</p>
-                </div>
-                <div class="img-center">
-                    <img class="img-responsive" src="{% static 'img/landing/disco.jpg' %}" alt="">
+                    <h1>{% trans "HKU Heritage" %}</h1>
+                    <p>{% trans "Heritage plays a key role in the memory of a place and its future development. The HKU Heritage platform has been developed to document Hong Kong's tangible and intangible forms of heritage, and this process of documentation is a crucial first step in laying the ground work for plans related to the sustainable development and preservation of a broad range of culture and heritage. The project initially focused on heritage buildings located on HKU’s main campus, and has now evolved to include cultural landscapes, buildings and heritage zones located across Hong Kong." %}</p>
+                    <p>{% trans 'The effort is being led by a consortium of partners at the <a href="http://hku.hk/">University of Hong Kong</a>, including the <a href="http://www.hkumag.hku.hk/">University Art Gallery and Museum (UMAG)</a>, the <a href="http://acp.arch.hku.hk/">Architectural Conservation Programmes (ACP)</a>, <a href="http://lib.hku.hk/">HKU Library</a>, the <a href="https://lib.hku.hk/preservation.html">Preservation and Conservation Division (PCD)</a> and the <a href="http://www.uarchive.hku.hk/">University Archives</a>.' %}</p>
+                    <p>{% trans 'HKU Heritage is built on the Arches platform, which is a collaboration between the <a href="http://www.getty.edu/conservation/">Getty Conservation Institute (GCI)</a> and <a href="https://www.wmf.org/">World Monuments Fund (WMF)</a>. Arches is an open source, web and geospatially based information system used for the inventory of cultural heritage. Originally designed for immovable heritage, HKU Heritage plans to develop to include robust modules for the intangible heritage that gives primary meaning to the buildings and heritage zones.' %}</p>
                 </div>
             </div>
         </div>
@@ -239,7 +238,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
     </section>
     <!--  About Section -->
 
-    <!-- Services Section -->
+    <!-- Services Section
     <section id="services">
         <div class="container content-lg">
             <div class="title-v1">
